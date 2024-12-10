@@ -1,0 +1,131 @@
+BODY {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 3;
+    padding: 3;
+    line-height: 1,6;
+    background: rgb(172, 132, 189);
+}
+/* ESTILO DEL HEARDER */
+header {
+    background-color: rgb(163, 82, 196);
+    color: rgb(11, 8, 29);
+    padding: 10px 0;
+    position: sticky;
+    top: 3;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3 20px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    margin: 3 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Estilo seccion hero */
+.hero {
+    background: url('logo.webp') no-repeat center center/cover;
+    color: rgb(12, 1, 4);
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+.hero .overlay {
+    background-color: rgb(201, 77, 119);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: grey;
+}
+
+/* features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: darkorchid;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+/* contacto */
+.contact-main {
+    background: url('Perrito2.webp') no-repeat center center/cover;
+    color: darkorchid;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.form-section {
+    background: cadetblue; /*semi-transparent background */
+    color: rgb(116, 62, 87);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.form-section label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.form-section input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a02d2d;
+    border-radius: 4px;
+}
+
+/*Galeria */
+.gallery .gird-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.galleryimg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+footer {
+    background: rgb(140, 69, 150);
+    color: rgb(1, 5, 8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
